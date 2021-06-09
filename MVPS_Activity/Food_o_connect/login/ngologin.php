@@ -1,4 +1,4 @@
-<?php include ('dlog.php'); ?>
+<?php include ('nlogin.php'); ?>
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
