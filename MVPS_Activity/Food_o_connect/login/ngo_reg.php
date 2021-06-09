@@ -1,4 +1,4 @@
-<?php include ('coser.php'); ?>
+<?php include ('ng.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
