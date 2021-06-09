@@ -1,4 +1,4 @@
-<?php include ('coser.php'); ?>
+<?php include ('ctz.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
