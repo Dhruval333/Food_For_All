@@ -1,4 +1,4 @@
-<?php include ('dlog.php'); ?>
+<?php include ('clogin.php'); ?>
 <!DOCTYPE html>
 <head>
 <meta charset="utf-8">
