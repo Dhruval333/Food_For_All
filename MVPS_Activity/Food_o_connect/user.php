@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+<?php session_start(); include('data_update.php'); ?>
 
 <!doctype html>
 <html lang="en">
