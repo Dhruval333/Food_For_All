@@ -1,10 +1,5 @@
 <?php
-$AFOOD = "";
-$CHARITY = "";
-$FUNDS = "";
-$VOLUNTEER = "";
-$PEOPLE_DATA = "";
-$LOCATION = "";
+
 
 
 $errors = array();
@@ -23,7 +18,6 @@ if (isset($_POST['update']))
 	mysqli_query($db, $sql) OR die('FAILED TO LOAD UPDATE IN TABLE :'.mysqli_error($db));
 
 
-	echo "<script>alter('hello')</script>;";
 	
 	// $_SESSION['AFOOD'] = "You have updated data";
   	$_SESSION['success'] = "You have updated data";
