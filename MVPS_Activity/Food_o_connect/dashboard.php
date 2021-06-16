@@ -1,4 +1,5 @@
 <?php
+include('data_update.php')
 session_start();
 
   if(isset($_SESSION['success'])) 
