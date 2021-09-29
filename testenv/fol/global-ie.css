@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/*
+---> Global Elements (Internet Explorer Fixes)
+*/
+
+
+
+/*
+--> Service Menu (Top Black) 800px wide
+*/
+
+#globalQuicklinks li {
+    padding:        0 4px 0px 6px;          
+}
+#globalQuicklinks li.last {
+    padding:             0 0 0 6px;
+}
+#globalQuicklinks.french li {
+    padding:        0 0px 0px 2px;
+}
+#globalQuicklinks.french li.first {
+                    padding-right:  0;
+}
+
+#instSiteTag160, #instSiteTag135, #banner_nav img, .searchBtn, .iepng {
+ behavior: url(/assets/templates/css/iepngfix.htc); 
+}
+
+.contentArea ul, .contentArea ol {
+    margin-left:        30px;
+}

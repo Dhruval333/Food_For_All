@@ -1,0 +1,82 @@
+/*
+---> Site Tag for Home Page Templates
+*/
+#instSiteTag160 { 
+    background: url(../img/tagline160.png) top left no-repeat; 
+}
+
+#instSiteTag135 { 
+    background: url(../img/tagline135.png) top left no-repeat; 
+}
+
+
+
+
+div.contentFeatureStory .primaryImage .clear {clear:left;}
+
+
+div.contentFeatureStory .author, div.contentFeatureStory .date {
+    margin-right:   10px;
+}
+
+div.contentFeatureStory .posted {
+    font-style: italic;
+}
+
+div.contentFeatureStory .primaryImage {
+    width:      575px;
+}
+
+div.contentFeatureStory .imgTableLeft {
+    border:     none;
+}
+div.contentFeatureStory .primaryImage .cutline {
+    text-align: left;
+    padding:    10px 0 10px 10px;
+}
+div.contentFeatureStory .primaryImage .credit {
+    font-style: italic;
+}
+div.contentFeatureStory .primaryImage .player {
+    margin:     0 auto;
+}
+
+div.contentFeatureStory .releaseType {
+    float:      right;
+    font-style: italic;
+}
+
+#QuickLinks .enlarge {
+    text-align: right;
+    font-size:  0.9em;
+}
+
+#QuickLinks .related {
+    padding-bottom:    2px;
+}
+
+
+#QuickLinks  ul {
+    margin-bottom:        15px;
+}
+
+a.shareEmail {
+    float:      left;
+    margin-left:    10px;
+}
+
+table.featureListing {
+    width:      575px;
+}
+table.featureListing th {
+    background: #E5E5E5;
+    text-align: left;
+    padding:    3px 5px;
+}
+table.featureListing td {
+    background: #FFF;
+    padding:    8px 2px;
+}
+table.featureListing td.date {
+    width:      90px;
+}

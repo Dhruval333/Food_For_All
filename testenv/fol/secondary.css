@@ -1,0 +1,931 @@
+/*
+---> Default Column setup
+*/
+#colContainer {
+    clear:              both;
+    padding-top:            10px;
+}
+
+#col_left, #col_left_hp, #col_left_3rd {
+    float:              left;
+    clear:              left;
+    width:              155px;
+    margin-top:         123px;
+}
+
+#col_left_hp {
+    margin-top:         147px;
+}
+
+#col_left_3rd {
+    margin-top:         83px;
+}
+
+#col_right {
+    float:              right;
+    clear:              right;
+    width:              800px;
+}
+
+#inner_col_right {
+    float:              right;
+    width:              140px;
+    margin-left:        10px;
+}
+
+/*
+---> Faculty Logo, Left Column 
+*/
+#facultyLogo {
+    height:             120px;
+    margin-bottom:          15px;
+    background:         left bottom no-repeat;
+}
+
+/*
+---> Default Banner Location Colour (Yellow)
+*/
+div.banner span.location {
+    background:         #FFC82E; /* #FDB827 */
+}
+
+
+/*
+---> Banner and Banner Elements
+*/
+div.banner {
+    margin-bottom:          40px;
+    position:           relative;
+    clear:              both;
+    height:             190px;
+}
+
+div.banner135 {
+    height:             165px !important;
+}
+
+div.banner95 {
+    height:             125px !important;
+}
+
+div.banner img.item {
+    border:             0;
+    float:              left;
+    position:           absolute;
+}
+
+#banner img.show {
+    z-index:            500;
+    clear:              both;
+}
+
+div.banner img.last {
+    margin-right:           0;
+}
+
+div.banner div.location {
+    background:         #FFC82E;
+    font-size:          1.4em;
+    font-weight:            bold;
+    padding:            6px 10px;
+    margin:             0;
+    /*display:          block;*/
+    position:           relative;
+    top:                160px;
+    /*height:           1%;*/           /* IE6 fix for absolute posiitoning inside this container */
+}
+
+div.banner135 div.location {
+    position:           relative;
+    top:                135px;
+}
+
+div.banner95 div.location {
+    position:           relative;
+    top:                95px;
+}
+
+#instSiteTag160 {
+    position:           absolute;
+    z-index:            500;
+    top:                30px;
+    left:               -135px;
+    width:                  500px;
+        height:             74px;
+}
+
+#instSiteTag135 {
+    position:           absolute;
+    z-index:            500;
+    top:                30px;
+    left:               -135px;
+    width:              500px;
+    height:             60px; 
+}
+
+#banner_nav {
+    position:           absolute;
+    z-index:            600;
+    top:                9px;
+    right:              10px;
+}
+#banner_nav img {
+    margin-right:           5px;
+    cursor:             pointer;
+    float:              left;
+}
+
+div.language {
+    float:              right;
+    font-weight:            bold;
+    font-size:          1.0em;
+    height:             30px;
+    position:           absolute;
+    top:                192px;
+    right:              0px;
+}
+
+div.languageCO { /* CO = Content Only */
+    float:              right;
+    font-weight:        bold;
+    font-size:          1.0em;
+    height:             30px;
+}
+
+div.language span, div.languageCO span {
+    background:         #E6E6E6;
+    padding:            5px 10px;
+    display:            block;
+}
+
+div.language span a, div.languageCO span a {
+    text-decoration:    none;
+}
+
+div.banner135 .language {
+    position:           absolute;
+    top:                167px;
+}
+
+div.banner95 .language {
+    position:           absolute;
+    top:                127px;
+}
+
+div.siteSubLocation {
+    float:              left;
+    font-weight:        bold;
+    font-size:          1.0em;
+    height:             30px;
+    position:           relative;
+    top:                160px;
+}
+div.siteSubLocation span {
+    background:         #E6E6E6;
+    padding:            5px 10px;
+    display:            block;
+}
+
+div.banner135 .siteSubLocation {
+    position:           relative;
+    top:                168px;
+    top:                135px;
+}
+
+div.banner95 .siteSubLocation {
+    position:           relative;
+    top:                95px;
+}
+
+/*
+---> Top Navigation - Secondary Pages
+*/
+#topNav {
+    height:             1.8em;
+}
+
+#topNav ul {
+    list-style:         none;
+}
+
+#topNav li {
+    display:            inline;
+}
+
+#topNav a {
+    display:            block;  
+    float:              left;
+    padding:            1px 10px;
+    border-left:            1px solid #808080;
+    color:              #000000;
+    /*text-transform:       uppercase;*/
+    text-decoration:        none;
+    font-size:          1.2em;
+}
+
+#topNav a:hover {
+    text-decoration:    underline;
+}
+
+#topNav li.first a {
+    padding-left:           0;
+    clear:              left;
+    border:             0;
+}
+
+
+/*
+---> Left Side Secondary Navigation
+*/
+
+#secNav {
+    list-style:         none;
+    background:         #BFBFBF; /* 939598 */
+    height:             auto !important;
+}
+
+#secNav li {
+    border-bottom:      1px solid #FFF;
+}
+
+#secNav li a {
+    font-size:          1.0em;
+    padding:            4px 10px;
+    display:            block;
+    color:              #000;
+    text-decoration:    none;
+}
+
+#secNav li a:hover {
+    color:              #FFF; /*#E0E0E0*/
+}
+
+#secNav li.parent {
+    background:         #595959;
+    font-size:          1.2em;
+    font-weight:            bold;
+}
+
+#secNav li.parent a {
+    padding:                10px;
+    min-height:         15px;
+    height:             auto !important;
+    height:             15px;
+    color:              #FFF;
+}
+
+#secNav li.parent a:hover {
+    /* color:               #000000; replace declaration if black rejected */
+    background-color:           #000000; /* remove declaration if black rejected */
+}
+
+/** Shows arrow when nav item has children **/
+#secNav li a.sub {
+    padding-right:          18px;
+    background:         url(../img/nav-arrow-black.gif) 140px 7px no-repeat;
+    font-weight:            bold;
+}
+#secNav a.sub:hover {
+    background:         url(../img/nav-arrow-white.gif) 140px 7px no-repeat;
+    background-color:       #000000; /* remove declaration if black rejected */
+    color:              #FFF;
+    text-decoration:        none;
+}
+
+#secNav li a.active {
+    background:         #E1E1E1;
+}
+#secNav li ul li a.active {
+    background:         #F4F4F4;
+}
+
+/** Secondary Children **/
+#secNav ul {
+    list-style:         none;
+}
+#secNav ul li a {
+    padding:            4px 4px 4px 25px;
+    font-weight:            normal;
+}
+#secNav li ul li {
+    border-bottom:          1px solid #E1E1E1;
+    background:         #E1E1E1;
+}
+#secNav li ul li a:hover {
+        text-decoration:        underline;
+    color:              #000000;
+    background:         #FFF;
+}
+
+#secNav ul li a.active {
+    background-color:       #E1E1E1;
+}
+
+#secNav li a.activefolder {
+    padding-right:          18px;
+    background:         url(../img/nav-arrow-black.gif) 140px 7px no-repeat #E1E1E1;
+    font-weight:            bold;
+}
+#secNav li a.activefolder:hover {
+
+    background:         #000000; /* remove declaration if black rejected */
+}
+
+
+
+
+/*
+---> News Items
+*/
+.NewsItem {
+    margin-bottom:      10px;
+    margin-top:     10px;
+    /* width:               375px; */
+}
+
+.NewsItem img {
+    margin-right:       15px;
+    float:              left;
+    clear:              left;
+}
+
+.NewsItem .title {
+    font-size:          1.2em;
+    font-weight:        bold;
+    /*text-transform:       uppercase;*/
+}
+.NewsItem .title a:hover {
+    color:          #000000;
+}
+
+.NewsItem .copy {
+    font-size:          1.0em;
+}
+.NewsItem .copy a {
+    font-weight:            bold;
+}
+.NewsItem .copy a:hover {
+    color:              #000000;
+}
+
+
+/*
+---> Events Items
+*/
+.eventsItem {
+    margin-bottom:      10px;
+    margin-top:         10px;
+}
+.eventsItem img {
+    margin-right:       15px;
+    float:              left;
+    clear:              left;
+}
+.eventsItem .title {
+    font-size:          1.2em;
+    font-weight:        bold;
+}
+.eventsItem .title a:hover {
+    /* color:               #000000; */
+}
+.eventsItem .copy {
+    font-size:          1.0em;
+}
+.eventsItem .copy a {
+    /* font-weight:     bold; */
+}
+.eventsItem .copy a:hover {
+    /* color:               #000000; */
+}
+
+
+
+/*
+---> Home Page Feeds
+*/
+#QuickLinks, #Events {
+    float:              right;
+    min-height:         218px;
+    height:             auto !important;
+    height:             218px;
+    padding:            15px 20px 0px 20px;
+    margin-bottom:          25px;
+    position:           relative;
+    background:         #E5E5E5;
+    font-size:          1.0em;
+}
+
+#QuickLinks h3, #Events h3 {
+    margin-top:         0px;
+    font-size:          1.2em;
+    font-weight:            bold;
+}
+
+#QuickLinks {
+    width:              160px;
+    margin:             16px 0px 25px 15px;
+    padding-bottom:         15px;
+}
+
+#QuickLinks ul {
+    margin-left:            15px;
+}
+
+#Events {
+    width:              160px;
+    margin:             16px 0px 25px 15px;
+}
+
+#Events ul {
+    margin-top:         10px;
+    list-style:         none;
+}
+
+#Events li {
+    margin-bottom:          15px;
+    font-size:          8pt;
+}
+
+#Events li a {
+    margin-bottom:          15px;
+    text-decoration:        underline;
+}
+#Events li a:hover {
+    margin-bottom:          15px;
+    font-size:          9pt;
+    text-decoration:        underline;
+    /* color:               #000000; */
+}
+
+#Events .title {
+    font-size:          9pt;
+}
+#Events .date {
+    font-size:          8pt;
+}
+
+#Events .more  {
+    padding-bottom:         15px;
+    text-align:         right;
+    font-size:          1em;
+    font-weight:            bold;
+}
+#Events .more a {
+    color:          #000000;
+    text-decoration:    none;
+}
+#Events .more a:hover {
+    color:          #000000;
+    text-decoration:    underline;
+}
+
+
+.eventarchives a {
+    font-weight:            bold;
+}
+.eventarchives a:hover {
+    color:          #000000;
+}
+
+div.eventsListing {
+    margin-bottom:      35px;
+}
+
+/*
+---> Used on Content Only Template
+*/
+#contentOnly {
+    clear:              both;
+    padding:            15px;
+    padding-top:        30px;
+}
+
+
+/*
+---> Content Area Elements (P,TABLE,UL,OL,etc...)
+*/
+
+.content {
+    min-height:         400px;
+    height:             auto !important;
+    height:             400px;
+}
+
+.content h1 {
+    margin-bottom:      8px;
+}
+
+.contentArea a {
+    text-decoration:        underline;
+}
+
+.contentArea p {
+    font-size:          1.0em;
+    line-height:        140%;
+    /* padding-right:       230px; */
+    margin-top:0;
+}
+
+.contentArea img.imgAlignLeft {
+    float:          left;
+    margin:         5px 15px 15px 0;
+}
+.contentArea img.imgAlignRight {
+    float:          right;
+    margin:         5px 0 15px 15px;
+}
+.contentArea img.imgAlignCenter {
+    margin:         10px auto;
+    display:        block;
+}
+
+.contentArea h1 {
+    font-size:          1.5em;
+    font-weight:        bold;
+    padding:        0px 0px 0px 0px;
+    margin:         13px 0px 0px 0px;
+}
+
+.contentArea h2 {
+    font-size:          1.25em;
+    font-weight:        bold;
+    padding:        0px 0px 0px 0px;
+    margin:     13px 0px 0px 0px;
+}
+
+
+.contentArea h3 {
+    font-size:          1.0em;
+    font-weight:        bold;
+    padding:        0px 0px 0px 0px;
+    margin:     13px 0px 3px 0px;
+}
+
+.contentArea h4 {
+    font-size:          1.0em;
+    font-weight:        bold;
+    padding:        0px 0px 0px 0px;
+    margin:     13px 0px 3px 0px;
+}
+
+.contentArea h5 {
+    font-size:          1.0em;
+    font-weight:        bold;
+    padding:        0px 0px 0px 0px;
+    margin:     13px 0px 3px 0px;
+}
+
+.contentArea h6 {
+    font-size:          1.0em;
+    font-weight:        bold;
+    padding:        0px 0px 0px 0px;
+    margin:     13px 0px 3px 0px;
+}
+
+
+.contentArea table {
+    border-collapse:    collapse;
+}
+
+.contentArea table th {
+    background:         #BFBFBF;
+    padding:            5px;
+    font-weight:        bold;
+}
+
+.contentArea table td {
+    background:         #E5E5E5;
+    padding:            5px;
+    border-bottom:      1px solid #FFF;
+}
+
+
+
+.contentArea table.imgTableRight {
+    border-collapse:    collapse;
+    border: 1px solid #cccccc;
+    float:  right;
+    margin: 5px 0 10px 10px;
+    width:  1px;
+}
+.contentArea table.imgTableRight td {
+    background-color:   #ffffff;
+    text-align: left;
+    border-bottom:      0px solid #FFF;
+}
+.contentArea table.imgTableLeft {
+    border-collapse:    collapse;
+    border: 1px solid #cccccc;
+    float:  left;
+    margin: 5px 10px 10px 0px;
+    width:  1px;
+}
+.contentArea table.imgTableLeft td {
+    background-color:   #ffffff;
+    text-align: left;
+    border-bottom:      0px solid #FFF;
+}
+.contentArea tr.odd-row-table td{
+    background:         #CCCCCC;
+}
+.contentArea table.normalTable, table.normalTable td, table.normalTable th {
+    background: #ffffff;
+    border:     none;
+}
+
+.contentArea table.TableAlignLeft {
+    float:          left;
+    margin-right:       15px;
+    margin-bottom:      15px;
+}
+.contentArea table.TableAlignRight {
+    float:          right;
+    margin-left:        15px;
+    margin-bottom:      15px;
+}
+
+.contentArea blockquote {
+    margin-left:        30px;
+    margin-right:       300px;
+    background-color:       #e6e6e6;
+    padding:        5px ;
+}
+
+.contentArea ul, .contentArea ol {
+    margin-left:        15px;
+    margin-bottom:      8px;
+    padding-left:       12px;
+}
+.contentArea ul, .contentArea ul ul ul {
+    list-style:         disc;
+}
+.contentArea ul ul, .contentArea ul ul ul ul {
+    list-style:         circle;
+}
+.contentArea ol {
+    list-style:         decimal;
+}
+.contentArea ol ol {
+    list-style:         upper-alpha;
+}
+.contentArea ol ol ol {
+    list-style:         upper-roman;
+}
+.contentArea ol ol ol ol {
+    list-style:         lower-alpha;
+}
+.contentArea ol ol ol ol ol {
+    list-style:         lower-roman;
+}
+.contentArea li {
+    line-height:        140%;
+}
+
+.contentArea hr {
+    border:             0;
+    height:             0;
+    border-top:         1px solid #000;
+}
+
+.contentArea ol:first-child {
+    padding-top:            5px;
+}
+
+.contentArea ol:last-child {
+    padding-bottom:         5px;
+}
+
+.contentArea ul:first-child {
+    padding-top:            5px;
+}
+
+.contentArea ul:last-child {
+    padding-bottom:         5px;
+}
+
+.contentArea input.hidden {
+    display:            none;
+}
+
+.contentArea label {
+    font-weight:        bold;
+}
+
+
+
+/*
+---> Faculy / Staff listings
+*/
+
+
+div.staffMember {
+    background:         #e8e8e8;    
+    padding:            10px;
+    margin-bottom:      10px;
+    margin-top:     5px;
+    border-top:         1px solid #999999;
+    border-bottom:      1px solid #999999;
+}
+div.staffMember img, div.staffMemberDetail img {
+    margin-right:       15px;
+}
+div.staffMember h4, div.staffMemberDetail h4 {
+    margin:             0;
+    padding:            0;
+    font-size:          1.0em;
+}
+div.staffMember ul, div.staffMemberDetail ul {
+    margin-bottom:      20px;
+}
+div.staffMember .wrapper, div.staffMemberDetail .wrapper {
+    margin-left:        115px;
+    padding:            0;
+}
+div.staffMemberDetail a:hover {
+    color:      #000000;
+}
+div.staffMember p, div.staffMemberDetail p {
+    margin-left:        0;
+    margin-top:         0;
+    padding-left:       0;
+}
+div.staffMember li, div.staffMemberDetail li {
+    margin-left:        20px;
+}
+
+div.staffMemberContent {
+    clear:          both;
+    margin-top:     15px;
+    background: #ffffff;
+    padding:        10px;
+}
+
+
+div.staffMember a:hover {
+    color:          #000000;
+}
+
+
+
+.rss {
+    float:              right;
+    text-decoration:        underline;
+}
+.rss img {
+    border:             0;
+    vertical-align:         middle;
+}
+
+/*
+---> Google Search Results
+*/
+
+#cse .gs-title a {
+    color:          #000000;
+    font-weight:        bold;
+}
+#cse .gs-title a:hover, #cse .gs-title a:hover b  {
+    color:          #0000FF;
+}
+
+#cse .gs-title b {
+    font-size:      1.1em;
+    color:          #000000;
+}
+#cse .gs-snippet {
+    font-size:      1.0em;
+    line-height:        140%;
+}
+#cse .gs-visibleUrl {
+    color:          #000000;
+}
+.gs-webResult div.gs-visibleUrl-short {
+    display:        none;
+}
+.gs-webResult div.gs-visibleUrl-long {
+    display:        block !important;
+}
+
+
+
+/*** 2 Column Construction  ***/
+.globalCol_1_2  p {
+    padding:        0px 0px 0px 0px;
+
+}
+.globalCol_2_2  p {
+    padding:        0px 0px 0px 0px;
+}
+
+
+
+#largeCalendar {
+    border-collapse:    collapse;
+    width:              100%;
+    background-color:   #E5E5E5;
+    border:             2px solid #B3B3B3;
+}
+
+#largeCalendar .month {
+    font-size:          1.3em;
+    padding:            15px;
+}
+
+#largeCalendar th {
+    text-align:         center;
+    padding:            4px;
+    font-size:          1.2em;
+    background-color:   #E5E5E5;
+    border:             1px solid #E5E5E5;
+}
+
+#largeCalendar td.day {
+    padding:            4px;
+    border:             1px solid #B3B3B3;
+    font-size:          1.1em;
+    background-color:   #FFF;
+    height:             85px;
+}
+
+#largeCalendar td.day a {
+    font-weight:        normal;
+}
+
+#largeCalendar td.wknd {
+    background:         #CCC;
+}
+
+#largeCalendar td.noDay {
+    border:             1px solid #E5E5E5;
+}
+
+#largeCalendar td.currday, #largeCalendar td.currday a {
+    color:              #FFF;
+    background-color:   #000;
+}
+
+#largeCalendar tr {
+    background-color:   #E5E5E5;
+}
+
+#largeCalendar a.arrowLeft, #largeCalendar a.arrowRight {
+    text-decoration:    none;
+    font-size:          1.1em;
+    font-weight:        normal;
+}
+#largeCalendar a.arrowLeft {
+    padding-right:      8px;
+}
+#largeCalendar a.arrowRight {
+    padding-left:       8px;
+}
+
+
+/*
+---> Banner Module
+*/
+table td.bannerTop {
+    background:     none;
+    padding:        0;
+    margin:         0;
+    border:         0;
+}
+
+ul.bannerTabs {
+    margin:         0;
+    padding:        0;
+}
+ul.bannerTabs li {
+    list-style:     none;
+    display:        inline;
+}
+ul.bannerTabs li.previous {
+    float:          right;
+    margin-right:   8px;
+}
+ul.bannerTabs li a {
+    display:        block;
+    float:          left;
+    margin-left:    8px;
+    padding:        8px 12px;
+    background:     #E5E5E5;
+    font-weight:    bold;
+}
+ul.bannerTabs li a.active {
+    background:     #BFBFBF;
+}
+
+/*
+---> Extras
+*/
+.hideElement {
+    display:    none;
+}
+
+
+/*
+---> Site Map
+*/
+#sitemap .folder {
+    font-weight:        bold;
+}
